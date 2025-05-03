@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playas Limpias Lima</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 30px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #023e8a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #03045e;
+      color: white;
+    }
+
+    .comunidades {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .comunidad {
+      text-align: center;
+    }
+
+    .comunidad img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0096c7;
+    }
+
+    .comunidad p {
+      margin-top: 10px;
+    }
+
+    .comunidad a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .comunidad a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 16px;
+      }
+
+      .comunidades {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Proyecto Playas Limpias Lima</h1>
+  <p>Unidos por un futuro más limpio 🌊</p>
+</header>
+
+<main>
+  <section id="estadisticas">
+    <h2>📊 Estadísticas</h2>
+    <p>Aquí mostraremos gráficos o cifras sobre la cantidad de basura recolectada en las playas de Lima en los últimos 5 años.</p>
+    <!-- Puedes insertar imágenes o gráficos aquí -->
+  </section>
+
+  <section id="consecuencias">
+    <h2>⚠️ Consecuencias de la contaminación</h2>
+    <p>Explica cómo la basura afecta la fauna marina, la salud humana y el turismo.</p>
+  </section>
+
+  <section id="colabora">
+    <h2>🙌 ¿Cómo puedes ayudar?</h2>
+    <p>Conoce y únete a comunidades activas en la limpieza de playas:</p>
+    <div class="comunidades">
+      <div class="comunidad">
+        <img src="https://via.placeholder.com/100" alt="Comunidad 1">
+        <p><a href="https://instagram.com/comunidad1" target="_blank">@comunidad1</a></p>
+      </div>
+      <div class="comunidad">
+        <img src="https://via.placeholder.com/100" alt="Comunidad 2">
+        <p><a href="https://facebook.com/comunidad2" target="_blank">fb.com/comunidad2</a></p>
+      </div>
+      <div class="comunidad">
+        <img src="https://via.placeholder.com/100" alt="Comunidad 3">
+        <p><a href="https://instagram.com/comunidad3" target="_blank">@comunidad3</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ejemplo">
+    <h2>🌟 Nuestro Ejemplo</h2>
+    <p>Fotos y testimonio de cuando fuimos a limpiar la playa junto a voluntarios. ¡Tú también puedes hacerlo!</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Playas Limpias Lima | Proyecto estudiantil</p>
+</footer>
+
+</body>
+</html>
